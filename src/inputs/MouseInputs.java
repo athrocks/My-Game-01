@@ -15,37 +15,37 @@ public class MouseInputs implements MouseListener, MouseMotionListener {
 
     @Override
     public void mouseClicked(MouseEvent e) {
-        System.out.println("Mouse Clicked");
+//        System.out.println("Mouse Clicked");
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
-        System.out.println("Mouse Pressed");
+//        System.out.println("Mouse Pressed");
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        System.out.println("Mouse Released");
+//        System.out.println("Mouse Released");
     }
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        System.out.println("Mouse Entered");
+//        System.out.println("Mouse Entered");
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
-        System.out.println("Mouse Exited");
+//        System.out.println("Mouse Exited");
     }
 
     @Override
     public void mouseDragged(MouseEvent e) {
-        System.out.println("mouseDragged");
+//        System.out.println("mouseDragged");
     }
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        gamePanel.setRectPos(e.getX(), e.getY());
+//        gamePanel.setRectPos(e.getX(), e.getY());
     }
 
 }
