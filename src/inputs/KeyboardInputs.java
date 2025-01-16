@@ -21,15 +21,19 @@ public class KeyboardInputs implements KeyListener {
     public void keyPressed(KeyEvent e) {
         switch (e.getKeyCode()) {
             case KeyEvent.VK_W:
+//                System.out.println("Up");
                 gamePanel.changeYDelta(-5);
                 break;
             case KeyEvent.VK_A:
+//                System.out.println("Left");
                 gamePanel.changeXDelta(-5);
                 break;
             case KeyEvent.VK_S:
+//                System.out.println("Down");
                 gamePanel.changeYDelta(5);
                 break;
             case KeyEvent.VK_D:
+//                System.out.println("Right");
                 gamePanel.changeXDelta(5);
                 break;
         }
