@@ -26,13 +26,13 @@ public class GamePanel extends JPanel {
     }
 
     private void setPanelSize() {
-        Dimension size = new Dimension(1280,800);
+        Dimension size = new Dimension(1280, 800);
         setPreferredSize(size);
         setMaximumSize(size);
         setMinimumSize(size);
     }
 
-    public void updateGame(){
+    public void updateGame() {
 
     }
 
@@ -42,7 +42,7 @@ public class GamePanel extends JPanel {
         game.render(g);
     }
 
-    public Game getGame(){
+    public Game getGame() {
         return game;
     }
 
