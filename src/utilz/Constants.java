@@ -15,7 +15,7 @@ public class Constants {
         public static int getSpriteAmount(int player_action) {
             switch (player_action) {
                 case RUNNING:
-                    return 6; // basically how many fixed img we have to make it animation running has 6 img row 2 total column 6
+                    return 6;
                 case IDLE:
                     return 5;
                 case HIT:
