@@ -89,6 +89,20 @@ public class Player extends Entity {
         }
     }
 
+    /**
+     * Loads the player animation frames from the sprite atlas.
+     *
+     * We are talking about player_sprites.png here there are total 9 rows and maximum 6 columns for row:2 or rowIdx:1
+     *
+     * This method extracts individual frames for the player's actions (e.g., running, idle) from the sprite sheet
+     * and stores them in a 2D array. The sprite sheet is expected to have 9 rows and 6 columns of frames, where
+     * each frame has a size of 64x40 pixels.
+     *
+     * The frames are then used in the game to animate the player's actions, such as walking, running, and jumping.
+     *
+     * The frames are loaded based on the player's action states and are stored in the 'animations' array.
+     *
+     */
     private void loadAnimations() {
 
         BufferedImage img = LoadSave.getSpriteAtlas(LoadSave.PLAYER_ATLAS);
