@@ -5,11 +5,9 @@ import levels.LevelManager;
 
 import java.awt.*;
 
-/**
- * The Game class represents the main game logic and execution flow.
- * It initializes the game window, manages the game loop, updates the game state,
- * and renders the game to the screen.
- */
+/// The Game class represents the main game logic and execution flow.
+/// It initializes the game window, manages the game loop, updates the game state,
+/// and renders the game to the screen.
 public class Game implements Runnable {
     private GameWindow gameWindow;
     private GamePanel gamePanel;
@@ -19,11 +17,9 @@ public class Game implements Runnable {
     private Player player;
     private LevelManager levelManager;
 
-    /**
-     * Represents the default size of each tile in the game world, in pixels.
-     * The size is set to 32 pixels by default.
-     * This value is used as the base tile size before applying any scaling.
-     */
+    /// Represents the default size of each tile in the game world, in pixels.
+    /// The size is set to 32 pixels by default.
+    /// This value is used as the base tile size before applying any scaling.
     public final static int TILES_DEFAULT_SIZE = 32;
 
     /**
