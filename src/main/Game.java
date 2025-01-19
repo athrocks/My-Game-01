@@ -83,10 +83,12 @@ public class Game implements Runnable {
 
     /**
      * Initializes the core game classes such as the player and level manager.
+     * Also Loads level data so that collision can be detected wrt to hitBox.
      */
     private void initClasses() {
-        player = new Player(200, 200, (int) (64 * SCALE), (int) (40 * SCALE));
         levelManager = new LevelManager(this);
+        player = new Player(200, 200, (int) (64 * SCALE), (int) (40 * SCALE));
+        player.loadLvlData(levelManager.getCurrLevel().getLevelData());
     }
 
     /**
