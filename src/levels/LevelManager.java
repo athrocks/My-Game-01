@@ -81,4 +81,8 @@ public class LevelManager {
 
     }
 
+    public Level getCurrLevel() {
+        return levelOne;
+    }
+
 }
