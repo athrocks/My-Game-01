@@ -27,7 +27,7 @@ public class Game implements Runnable {
      * A value of 2f means that the tile size will be scaled to double its original size.
      * The scaling is used to adjust the size of tiles for visual purposes.
      */
-    public final static float SCALE = 2f;
+    public final static float SCALE = 1.9f; // 2.0f
 
     /**
      * Represents the number of tiles that fit horizontally across the game screen or level.
